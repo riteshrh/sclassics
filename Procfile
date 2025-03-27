@@ -1,0 +1,1 @@
+web: gunicorn sumidi_classics.wsgi --log-file -
