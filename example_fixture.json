@@ -1,0 +1,194 @@
+[
+    {
+        "model": "shop.category",
+        "pk": 1,
+        "fields": {
+            "name": "Accessories",
+            "description": "Stylish and trendy accessories."
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 2,
+        "fields": {
+            "name": "Home Essentials",
+            "description": "Essential items for your home."
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": 3,
+        "fields": {
+            "name": "Kids",
+            "description": "Toys and products for kids."
+        }
+    },
+
+    {
+        "model": "shop.product",
+        "pk": 1,
+        "fields": {
+            "name": "Stylish Sunglasses",
+            "description": "Trendy sunglasses for summer.",
+            "price": 29.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Stylish+Sunglasses",
+            "category": 1
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 2,
+        "fields": {
+            "name": "Leather Wallet",
+            "description": "High-quality leather wallet for men.",
+            "price": 49.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Leather+Wallet",
+            "category": 1
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 3,
+        "fields": {
+            "name": "Gold Necklace",
+            "description": "Elegant gold necklace for special occasions.",
+            "price": 99.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Gold+Necklace",
+            "category": 1
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 4,
+        "fields": {
+            "name": "Handcrafted Watch",
+            "description": "Beautifully crafted wristwatch for fashion lovers.",
+            "price": 89.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Handcrafted+Watch",
+            "category": 1
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 5,
+        "fields": {
+            "name": "Designer Sunglasses",
+            "description": "Stylish designer sunglasses with UV protection.",
+            "price": 79.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Designer+Sunglasses",
+            "category": 1
+        }
+    },
+
+    {
+        "model": "shop.product",
+        "pk": 6,
+        "fields": {
+            "name": "Aroma Diffuser",
+            "description": "Relaxing aroma diffuser with essential oils.",
+            "price": 39.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Aroma+Diffuser",
+            "category": 2
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 7,
+        "fields": {
+            "name": "LED Table Lamp",
+            "description": "Energy-efficient LED table lamp for your desk.",
+            "price": 25.99,
+            "image": "https://via.placeholder.com/300x300.png?text=LED+Table+Lamp",
+            "category": 2
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 8,
+        "fields": {
+            "name": "Modern Wall Clock",
+            "description": "Minimalistic wall clock for home decor.",
+            "price": 59.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Modern+Wall+Clock",
+            "category": 2
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 9,
+        "fields": {
+            "name": "Decorative Throw Blanket",
+            "description": "Soft and cozy throw blanket for your sofa.",
+            "price": 34.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Throw+Blanket",
+            "category": 2
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 10,
+        "fields": {
+            "name": "Indoor Plant Pot",
+            "description": "Stylish indoor plant pot for home decoration.",
+            "price": 19.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Indoor+Plant+Pot",
+            "category": 2
+        }
+    },
+
+    {
+        "model": "shop.product",
+        "pk": 11,
+        "fields": {
+            "name": "Building Blocks Set",
+            "description": "Fun building blocks set for children to enhance creativity.",
+            "price": 29.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Building+Blocks+Set",
+            "category": 3
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 12,
+        "fields": {
+            "name": "Toy Car Set",
+            "description": "A set of toy cars for kids to enjoy hours of play.",
+            "price": 19.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Toy+Car+Set",
+            "category": 3
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 13,
+        "fields": {
+            "name": "Stuffed Teddy Bear",
+            "description": "Soft and cuddly teddy bear for children.",
+            "price": 24.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Teddy+Bear",
+            "category": 3
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 14,
+        "fields": {
+            "name": "Kids Backpack",
+            "description": "Cute and stylish backpack for kids.",
+            "price": 34.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Kids+Backpack",
+            "category": 3
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 15,
+        "fields": {
+            "name": "Puzzles for Kids",
+            "description": "Engaging puzzles to enhance cognitive skills.",
+            "price": 15.99,
+            "image": "https://via.placeholder.com/300x300.png?text=Kids+Puzzles",
+            "category": 3
+        }
+    }
+]

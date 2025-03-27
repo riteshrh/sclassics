@@ -1,0 +1,59 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Sumidi Classics{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <link href="{% static 'css/output.css' %}" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+
+    <header>
+        <div class="w-full flex items-center justify-between py-4 px-6 bg-gradient-to-r from-sky-500 to-blue-300">
+            <!-- Left content (logo or branding) -->
+            <div class="text-2xl font-bold text-white">
+                <a href="/" class="text-white hover:text-gray-200 transition duration-300">Sumidi Classics</a>
+            </div>
+        
+            <!-- Center content (Home, Shop) -->
+            <div class="flex space-x-10 mx-auto font-semibold text-lg">
+                <a href="{% url 'home' %}" class="nav-link text-white hover:text-gray-200 transition duration-300">Home</a>
+                <a href="{% url 'shop' %}" class="nav-link text-white hover:text-gray-200 transition duration-300">Shop</a>
+            </div>
+
+            <!-- Right content (Cart and Authentication) -->
+            {% comment %} <div class="flex items-center space-x-4 text-white">
+                    <a href="{% url 'cart' %}" class="nav-link">Cart</a>
+                    <div class="flex items-center space-x-2">
+                        <span>{{ user.username }}</span>
+                    </div>
+            </div> {% endcomment %}
+        </div>
+    </header>
+
+    <main class="container mx-auto py-6">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    {% if show_footer %}
+        <footer class="bg-gray-800 text-white py-6">
+            <div class="container mx-auto text-center">
+                &copy; 2024 Sumidi Classics. All rights reserved.
+                <br>
+                <a href="#" class="text-yellow-400 hover:underline">Privacy Policy</a> | 
+                <a href="#" class="text-yellow-400 hover:underline">Terms of Service</a>
+            </div>
+        </footer>
+    {% endif %}
+
+</body>
+
+</html>
