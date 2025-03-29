@@ -12,7 +12,12 @@ def home(request):
 def shop(request):
     categories = Category.objects.all()
     products = Product.objects.all()
-    return render(request, 'shop.html', {'categories': categories, 'products': products})
+    context = {
+        'categories': categories,
+        'products': products,
+        'show_footer': True
+    }
+    return render(request, 'shop.html', context)
 
 def category_products(request, category):
     category_obj = Category.objects.get(name=category)
