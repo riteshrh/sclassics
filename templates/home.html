@@ -9,54 +9,125 @@ Home - Sumidi Classics
 </head>
 
 {% block content %}
-<section class="container mx-auto flex flex-col lg:flex-row items-center mt-16 lg:mt-32 px-6 space-y-12 lg:space-y-0">
-    <div class="text-center lg:text-left lg:w-1/2 space-y-6 fade-in">
-        <h1 class="text-5xl font-extrabold leading-tight text-black">
-            Discover Unique Finds at Sumidi Classics
-        </h1>
-        <p class="mt-4 text-lg leading-relaxed text-gray-700">
-            Explore a curated collection of stylish accessories, home essentials, and kids' products. Elevate your shopping experience with quality and affordability.
-        </p>
-    </div>
+<section class="relative h-screen overflow-hidden">
+    <div class="absolute inset-0 bg-blue-500 bg-opacity-50 z-10"></div>
 
-    <div class="lg:w-1/3 text-center lg:text-right">
-        <img src="https://static.wixstatic.com/media/11062b_c95a93348d0e4f32897fa13a5d2e5a2d~mv2.jpg/v1/fill/w_1738,h_2182,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_c95a93348d0e4f32897fa13a5d2e5a2d~mv2.jpg" alt="Unique Finds" 
-            class="mx-auto lg:ml-20 transform hover:scale-105 transition duration-300" style="animation-delay: 2s;">
-    </div>
-</section>
-
-<section class="container mx-auto mt-24 px-6 py-16 border-t border-gray-300">
-    <div class="text-center lg:text-left lg:w-3/4 mx-auto space-y-6 fade-in">
-        <h2 class="text-4xl font-bold mb-8">Explore Our Diverse Collection</h2>
-        <p class="mt-4 text-lg text-gray-700">
-            At <strong>Sumidi Classics</strong>, we bring you a blend of modern and classic items that cater to every need. Whether it's fashion, home essentials, or kids' products, we have something for everyone.
-        </p>
-        <p class="text-lg text-gray-700">
-            Enjoy the convenience of shopping online with secure payment options and fast delivery right to your doorstep.
-        </p>
-    </div>
-</section>
-
-<section class="container mx-auto mt-24 px-6 py-16 border-t border-gray-300">
-    <div class="flex flex-col lg:flex-row items-center lg:justify-between lg:text-left space-y-12 lg:space-y-0">
-        <div class="lg:w-1/2 space-y-6 fade-in">
-            <h2 class="text-4xl font-bold mb-8">Why Choose Sumidi Classics?</h2>
-            <p class="mt-4 text-lg text-gray-700">
-                ✓ Wide selection of curated products.<br>
-                ✓ Quality items that are both stylish and functional.<br>
-                ✓ Competitive pricing for high-quality goods.<br>
-                ✓ Fast and secure delivery to your doorstep.<br>
-            </p>
-        </div>
-        <div class="lg:w-1/2 text-center lg:text-right mt-10 lg:mt-0">
-            <a href="https://chat.whatsapp.com/HNkmEDk4dnuG8ZwNCoy75j" target="_blank" class="inline-flex items-center bg-black text-white hover:bg-gray-800 px-8 py-3 rounded-full text-lg transition duration-300 transform hover:scale-105 fade-in" style="animation-delay: 1s;">
-                {% comment %} <i class="fab fa-whatsapp mr-2"></i> Chat on WhatsApp {% endcomment %}
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48" class="mr-2">
-                    <path fill="#fff" d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"></path><path fill="#fff" d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"></path><path fill="#cfd8dc" d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"></path><path fill="#40c351" d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"></path><path fill="#fff" fill-rule="evenodd" d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z" clip-rule="evenodd"></path>
-                </svg> Chat on WhatsApp
+    <div class="relative flex justify-center items-center h-full text-white z-20">
+        <div id="slider" class="flex h-full w-full transition-transform duration-500 ease-in-out">
+            
+            <a href="{% url 'category_products' 'Home Essentials' %}" class="w-full h-[730px] flex-shrink-0 flex items-center justify-center bg-cover bg-center"
+               style="background-image: url('{% static "images/test.png" %}');">
+                <div class="text-center px-4">
+                    {% comment %} <h1 class="text-4xl lg:text-6xl font-extrabold">Joyful Finds for Little Minds – Toys, Books & More!</h1> {% endcomment %}
+                </div>
             </a>
+
+            <div class="w-full h-[730px] flex-shrink-0 flex items-center justify-center bg-cover bg-center"
+                 style="background-image: url('{% static "images/test1.png" %}');">
+                <div class="text-center px-4">
+                    {% comment %} <h1 class="text-4xl lg:text-6xl font-extrabold">Kitchen Essentials for Every Home</h1> {% endcomment %}
+                    {% comment %} <p class="mt-4 text-lg">High-quality kitchen products to make your cooking easy and fun!</p> {% endcomment %}
+                </div>
+            </div>
         </div>
+
+        <button id="prev" class="absolute left-0 top-1/3 transform -translate-y-1/2 bg-white text-black p-2 hover:bg-gray-200 z-30">
+            &#8592;
+        </button>
+
+        <button id="next" class="absolute right-0 top-1/3 transform -translate-y-1/2 bg-white text-black p-2 hover:bg-gray-200 z-30">
+            &#8594;
+        </button>
+    </div>
+
+    <div class="absolute inset-x-0 bottom-0 h-[159px] bg-gradient-to-r from-[#318190] to-[#FFFFFF] shadow-xl z-20"></div>
+</section>
+
+
+<section class="container mx-auto py-8">
+    <h2 class="text-3xl font-bold mb-4 text-center">Featured Products</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        {% for product in featured_products %}
+        <div class="border p-4 rounded-lg shadow-lg">
+            <img src="{{ product.image.url }}" alt="{{ product.name }}" class="w-full h-56 object-cover mb-4 rounded-lg">
+            <h3 class="text-xl font-semibold text-center">{{ product.name }}</h3>
+            <p class="text-lg text-center text-gray-600">${{ product.price }}</p>
+            <p class="text-sm text-gray-500 mt-2">{{ product.description }}</p>
+        </div>
+        {% endfor %}
     </div>
 </section>
+
+<section class="flex flex-col mt-20">
+    <p class="font-semibold text-2xl md:text-3xl text-center">Our Growing Impact</p>
+    <div class="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-y-5 lg:gap-y-0 gap-x-5 place-items-center w-full mx-auto max-w-7xl px-5">
+  
+        <div class="flex flex-col justify-center items-center bg-gradient-to-br from-orange-100 to-pink-100 shadow-md hover:shadow-lg transition-shadow duration-300 px-4 h-[126px] w-full md:w-[281px] md:h-[192px] rounded-xl">
+            <div class="flex flex-row justify-center items-center">
+          <svg class="w-[35px] h-[35px] md:w-[50px] md:h-[50px]" fill="none" stroke="#FF6D42" stroke-width="3" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6m16 0V8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4m16 0H4"></path>
+          </svg>
+          <p class="font-bold text-3xl sm:text-4xl lg:text-5xl text-primary ml-2">50K+</p>
+        </div>
+        <p class="font-medium text-base sm:text-lg mt-3 md:mt-6 text-center">Products Sold</p>
+      </div>
+  
+      <div class="flex flex-col justify-center items-center bg-gradient-to-br from-orange-100 to-pink-100 shadow-md hover:shadow-lg transition-shadow duration-300 px-4 h-[126px] w-full md:w-[281px] md:h-[192px] rounded-xl">
+        <div class="flex flex-row justify-center items-center">
+          <svg class="w-[35px] h-[35px] md:w-[50px] md:h-[50px]" fill="none" stroke="#FF6D42" stroke-width="3" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 0 0-5-3.87M9 20H4v-2a4 4 0 0 1 5-3.87M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm6 8v-2a4 4 0 0 0-3-3.87M6 16v-2a4 4 0 0 1 3-3.87"></path>
+          </svg>
+          <p class="font-bold text-3xl sm:text-4xl lg:text-5xl text-primary ml-2">10K+</p>
+        </div>
+        <p class="font-medium text-base sm:text-lg mt-3 md:mt-6 text-center">Happy Customers</p>
+      </div>
+  
+      <div class="flex flex-col justify-center items-center bg-gradient-to-br from-orange-100 to-pink-100 shadow-md hover:shadow-lg transition-shadow duration-300 px-4 h-[126px] w-full md:w-[281px] md:h-[192px] rounded-xl">
+        <div class="flex flex-row justify-center items-center">
+          <svg class="w-[35px] h-[35px] md:w-[50px] md:h-[50px]" fill="none" stroke="#FF6D42" stroke-width="3" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h4v4H4V6zm6 0h4v4h-4V6zm6 0h4v4h-4V6zM4 12h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z"></path>
+          </svg>
+          <p class="font-bold text-3xl sm:text-4xl lg:text-5xl text-primary ml-2">30+</p>
+        </div>
+        <p class="font-medium text-base sm:text-lg mt-3 md:mt-6 text-center">Product Categories</p>
+      </div>
+  
+      <div class="flex flex-col justify-center items-center bg-gradient-to-br from-orange-100 to-pink-100 shadow-md hover:shadow-lg transition-shadow duration-300 px-4 h-[126px] w-full md:w-[281px] md:h-[192px] rounded-xl">
+        <div class="flex flex-row justify-center items-center">
+          <svg class="w-[35px] h-[35px] md:w-[50px] md:h-[50px]" fill="none" stroke="#FF6D42" stroke-width="3" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M7 7h.01M3 11l9.293 9.293a1 1 0 0 0 1.414 0l8.586-8.586a2 2 0 0 0 0-2.828L14.828 3a2 2 0 0 0-2.828 0L3 11z"></path>
+          </svg>
+          <p class="font-bold text-3xl sm:text-4xl lg:text-5xl text-primary ml-2">Best</p>
+        </div>
+        <p class="font-medium text-base sm:text-lg mt-3 md:mt-6 text-center">Affordable Prices</p>
+      </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block script %}
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('#slider > *');
+    const totalSlides = slides.length;
+    
+    function moveToNextSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        updateSliderPosition();
+    }
+    
+    function moveToPreviousSlide() {
+        currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+        updateSliderPosition();
+    }
+    
+    function updateSliderPosition() {
+        const newTransformValue = -currentIndex * 100 + '%';
+        document.getElementById('slider').style.transform = `translateX(${newTransformValue})`;
+    }
+    
+    document.getElementById('next').addEventListener('click', moveToNextSlide);
+    document.getElementById('prev').addEventListener('click', moveToPreviousSlide);
+</script>
 
 {% endblock %}

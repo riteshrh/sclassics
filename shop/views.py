@@ -2,8 +2,12 @@ from django.shortcuts import render
 from .models import Category, Product
 
 def home(request):
-    categories = Category.objects.all()
-    return render(request, 'home.html', {'categories': categories})
+    featured_products = Product.objects.filter(is_featured=True)
+    context = {
+        'featured_products': featured_products,
+        'show_footer': True
+    }
+    return render(request, 'home.html', context)
 
 def shop(request):
     categories = Category.objects.all()
